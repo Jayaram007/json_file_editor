@@ -77,7 +77,7 @@ This project is licensed under the Mozilla License. See the [LICENSE](LICENSE) f
 
 ## Contact
 
-For any questions or inquiries, please contact [jairam.kumar23@gmail.com.com](mailto:jairam.kumar23@gmail.com).
+For any questions or inquiries, please contact [jairam.kumar23@gmail.com](mailto:jairam.kumar23@gmail.com).
 
 ---
 
