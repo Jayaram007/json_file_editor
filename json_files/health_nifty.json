@@ -1,0 +1,177 @@
+[
+    {
+        "stat": "PNL_MKT",
+        "description": "PNL Mkt should not fall below this negative limit",
+        "warningLevel": "80000.0",
+        "errorLevel": "100000.0",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "RISK_DELTA",
+        "description": "Absolute value of Delta Risk should not exceed this threshold",
+        "warningLevel": "800.0",
+        "errorLevel": "1000.0",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "RISK_VEGA",
+        "description": "Absolute value of Vega Risk should not exceed this threshold",
+        "warningLevel": "8000.0",
+        "errorLevel": "10000.0",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "RISK_GAMMA",
+        "description": "Absolute value of Gamma Risk should not exceed this threshold",
+        "warningLevel": "10",
+        "errorLevel": "20",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "RISK_SLOPE",
+        "description": "Absolute value of Slope Risk should not exceed this threshold",
+        "warningLevel": "8000.0",
+        "errorLevel": "10000.0",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "RISK_CONVEXITY",
+        "description": "Absolute value of Convexity Risk should not exceed this threshold",
+        "warningLevel": "8000.0",
+        "errorLevel": "10000.0",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "MAX_ABS_EXPOSURE",
+        "description": "Absolute exposure across any instrument should not exceed this level",
+        "warningLevel": "20000.0",
+        "errorLevel": "25000.0",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "SUM_ABS_EXPOSURE",
+        "description": "Sum of absolute value of exposure across all instruments should not exceed this level",
+        "warningLevel": "200000.0",
+        "errorLevel": "250000.0",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "NET_EXPOSURE",
+        "description": "Sum of exposure across all instruments should not exceed this level",
+        "warningLevel": "25000.0",
+        "errorLevel": "30000.0",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "TOTAL_MARGIN",
+        "description": "Total margin should be less than this value in Lacs",
+        "warningLevel": "400",
+        "errorLevel": "500",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "OPTION_CALIB_CONS_PRICE_ERROR_CALIB_THREAD",
+        "description": "Option Calibration Consensus Model Price Error",
+        "warningLevel": "50",
+        "errorLevel": "75",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "OPTION_CALIB_CONS_PRICE_ERROR_ALGO_THREAD",
+        "description": "Option Calibration Consensus Model Price Error",
+        "warningLevel": "50",
+        "errorLevel": "75",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "OPTION_CALIB_CONS_PRICE_ERROR_LIQ_INSTRS_CALIB_THREAD",
+        "description": "Option Calibration Consensus Model Price Error only across liquid instruments",
+        "warningLevel": "15",
+        "errorLevel": "20",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "OPTION_CALIB_CONS_PRICE_ERROR_LIQ_INSTRS_ALGO_THREAD",
+        "description": "Option Calibration Consensus Model Price Error only across liquid instruments",
+        "warningLevel": "15",
+        "errorLevel": "20",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "OPTION_CALIB_CONS_VOL_ERROR_CALIB_THREAD",
+        "description": "Option Calibration Consensus Model Vol Error",
+        "warningLevel": "100",
+        "errorLevel": "150",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "OPTION_CALIB_CONS_VOL_ERROR_ALGO_THREAD",
+        "description": "Option Calibration Consensus Model Vol Error",
+        "warningLevel": "100",
+        "errorLevel": "150",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "OPTION_CALIB_CONS_VOL_ERROR_LIQ_INSTRS_CALIB_THREAD",
+        "description": "Option Calibration Consensus Model Vol Error only across liquid instruments",
+        "warningLevel": "50",
+        "errorLevel": "75",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "OPTION_CALIB_CONS_VOL_ERROR_LIQ_INSTRS_ALGO_THREAD",
+        "description": "Option Calibration Consensus Model Vol Error only across liquid instruments",
+        "warningLevel": "50",
+        "errorLevel": "75",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "OPTION_VOL_SURFACE_ARB_SPREAD",
+        "description": "Total arb value of call spreads across all options should not exceed this level",
+        "warningLevel": "0.4",
+        "errorLevel": "0.5",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "OPTION_VOL_SURFACE_ARB_BUTTERFLY",
+        "description": "Total arb value of butterfly spreads across all options should not exceed this level",
+        "warningLevel": "1.0",
+        "errorLevel": "1.5",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "FUT_CALIB_FIRST_OPT_EXPIRY_CROSSOVER",
+        "description": "Future Calib Model Mid should not exceed the market by this amount",
+        "warningLevel": "10000.0",
+        "errorLevel": "12500.0",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "FUT_CALIB_FIRST_OPT_EXPIRY_MINWIDTH",
+        "description": "Mininum Width of Market Future instruments should be less than this value",
+        "warningLevel": "1.0",
+        "errorLevel": "1.25",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "FUT_CALIB_FIRST_OPT_EXPIRY_NUMACTIVEINSTRS",
+        "description": "Future Calib number of active instruments should be greater than this value",
+        "warningLevel": "30",
+        "errorLevel": "20",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "OPTION_CALIB_NUM_ACTIVE_INSTRS_CALIB_THREAD",
+        "description": "Option Calib number of active instruments should be greater than this value",
+        "warningLevel": "30",
+        "errorLevel": "25",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "OPTION_CALIB_NUM_ACTIVE_INSTRS_ALGO_THREAD",
+        "description": "Option Calib number of active instruments should be greater than this value",
+        "warningLevel": "30",
+        "errorLevel": "25",
+        "pauseOnBreach": true
+    }
+]

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Select run_config_files</title>
+</head>
+<body>
+  <h2>Select run_config_files</h2>
+  <form action="/show_data" method="post">
+    {% for run_config_file_name, nifty_name in run_config_files.items() %}
+    <label>
+      <input type="checkbox" name="selected_files" value="{{ run_config_file_name }}">
+      {{ nifty_name }}
+    </label><br>
+    {% endfor %}
+    <br>
+    <input type="submit" value="Show Data">
+  </form>
+</body>
+</html>

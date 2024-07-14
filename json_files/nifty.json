@@ -1,0 +1,170 @@
+[
+    {
+        "stat": "PNL_CONSENSUS",
+        "description": "PNL Consensus should not fall below this negative limit",
+        "warningLevel": "None",
+        "errorLevel": "None",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "PNL_MKT",
+        "description": "PNL Mkt should not fall below this negative limit",
+        "warningLevel": "8000",
+        "errorLevel": "10000",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "RISK_DELTA",
+        "description": "Absolute value of Delta Risk should not exceed this threshold",
+        "warningLevel": "5000",
+        "errorLevel": "500",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "RISK_SLOPE",
+        "description": "Absolute value of Slope Risk should not exceed this threshold",
+        "warningLevel": "None",
+        "errorLevel": "None",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "RISK_CONVEXITY",
+        "description": "Absolute value of Convexity Risk should not exceed this threshold",
+        "warningLevel": "None",
+        "errorLevel": "None",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "MAX_ABS_EXPOSURE",
+        "description": "Absolute exposure across any instrument should not exceed this level",
+        "warningLevel": "None",
+        "errorLevel": "None",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "SUM_ABS_EXPOSURE",
+        "description": "Sum of absolute value of exposure across all instruments should not exceed this level",
+        "warningLevel": "None",
+        "errorLevel": "None",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "NET_EXPOSURE",
+        "description": "Sum of exposure across all instruments should not exceed this level",
+        "warningLevel": "None",
+        "errorLevel": "None",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "TOTAL_MARGIN",
+        "description": "Total margin should be less than this value in Lacs",
+        "warningLevel": "None",
+        "errorLevel": "None",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "OPTION_CALIB_CONS_PRICE_ERROR_CALIB_THREAD",
+        "description": "Option Calibration Consensus Model Price Error",
+        "warningLevel": "None",
+        "errorLevel": "None",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "OPTION_CALIB_CONS_PRICE_ERROR_ALGO_THREAD",
+        "description": "Option Calibration Consensus Model Price Error",
+        "warningLevel": "None",
+        "errorLevel": "None",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "OPTION_CALIB_CONS_PRICE_ERROR_LIQ_INSTRS_CALIB_THREAD",
+        "description": "Option Calibration Consensus Model Price Error only across liquid instruments",
+        "warningLevel": "None",
+        "errorLevel": "None",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "OPTION_CALIB_CONS_PRICE_ERROR_LIQ_INSTRS_ALGO_THREAD",
+        "description": "Option Calibration Consensus Model Price Error only across liquid instruments",
+        "warningLevel": "None",
+        "errorLevel": "None",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "OPTION_CALIB_CONS_VOL_ERROR_CALIB_THREAD",
+        "description": "Option Calibration Consensus Model Vol Error",
+        "warningLevel": "None",
+        "errorLevel": "None",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "OPTION_CALIB_CONS_VOL_ERROR_ALGO_THREAD",
+        "description": "Option Calibration Consensus Model Vol Error",
+        "warningLevel": "None",
+        "errorLevel": "None",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "OPTION_CALIB_CONS_VOL_ERROR_LIQ_INSTRS_CALIB_THREAD",
+        "description": "Option Calibration Consensus Model Vol Error only across liquid instruments",
+        "warningLevel": "None",
+        "errorLevel": "None",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "OPTION_CALIB_CONS_VOL_ERROR_LIQ_INSTRS_ALGO_THREAD",
+        "description": "Option Calibration Consensus Model Vol Error only across liquid instruments",
+        "warningLevel": "None",
+        "errorLevel": "None",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "OPTION_VOL_SURFACE_ARB_SPREAD",
+        "description": "Total arb value of call spreads across all options should not exceed this level",
+        "warningLevel": "None",
+        "errorLevel": "None",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "OPTION_VOL_SURFACE_ARB_BUTTERFLY",
+        "description": "Total arb value of butterfly spreads across all options should not exceed this level",
+        "warningLevel": "None",
+        "errorLevel": "None",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "FUT_CALIB_FIRST_OPT_EXPIRY_CROSSOVER",
+        "description": "Future Calib Model Mid should not exceed the market by this amount",
+        "warningLevel": "None",
+        "errorLevel": "None",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "FUT_CALIB_FIRST_OPT_EXPIRY_MINWIDTH",
+        "description": "Mininum Width of Market Future instruments should be less than this value",
+        "warningLevel": "None",
+        "errorLevel": "None",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "FUT_CALIB_FIRST_OPT_EXPIRY_NUMACTIVEINSTRS",
+        "description": "Future Calib number of active instruments should be greater than this value",
+        "warningLevel": "None",
+        "errorLevel": "None",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "OPTION_CALIB_NUM_ACTIVE_INSTRS_CALIB_THREAD",
+        "description": "Option Calib number of active instruments should be greater than this value",
+        "warningLevel": "None",
+        "errorLevel": "None",
+        "pauseOnBreach": true
+    },
+    {
+        "stat": "OPTION_CALIB_NUM_ACTIVE_INSTRS_ALGO_THREAD",
+        "description": "Option Calib number of active instruments should be greater than this value",
+        "warningLevel": "None",
+        "errorLevel": "None",
+        "pauseOnBreach": true
+    }
+]

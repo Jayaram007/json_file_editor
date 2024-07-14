@@ -1,0 +1,145 @@
+[
+    {
+        "name": "AlgoParams.RunTaker",
+        "value": false,
+        "editable": true,
+        "type": "bool"
+    },
+    {
+        "name": "AlgoParams.RunMaker",
+        "value": false,
+        "editable": true,
+        "type": "bool"
+    },
+    {
+        "name": "ChargeParams.FixChargeMultiplier",
+        "value": 0.25
+    },
+    {
+        "name": "ChargeParams.SizeChargeMultiplier",
+        "value": 3.0,
+        "editable": true,
+        "low": 2,
+        "high": 8
+    },
+    {
+        "name": "ChargeParams.NotionalChargeMultiplier",
+        "value": 0.8
+    },
+    {
+        "name": "ChargeParams.MarginLimit",
+        "value": 10000000.0
+    },
+    {
+        "name": "ChargeParams.MarginRate",
+        "value": 0
+    },
+    {
+        "name": "AlgoParams.TCMult",
+        "value": 2.95,
+        "editable": true,
+        "low": 0.5,
+        "high": 5
+    },
+    {
+        "name": "AlgoParams.TakerFixChargeMult",
+        "value": 1.5,
+        "editable": true,
+        "low": 0.5,
+        "high": 3.0
+    },
+    {
+        "name": "AlgoParams.MakerFixChargeMult",
+        "value": 1.5,
+        "editable": true,
+        "low": 0.5,
+        "high": 3.0
+    },
+    {
+        "name": "AlgoParams.TakerFixEdgeMult",
+        "value": 1.5,
+        "editable": true,
+        "low": 0.5,
+        "high": 3.0
+    },
+    {
+        "name": "AlgoParams.MakerFixEdgeMultBest",
+        "value": 1.0,
+        "editable": true,
+        "low": 0.5,
+        "high": 3.0
+    },
+    {
+        "name": "AlgoParams.MakerFixEdgeMultWorst",
+        "value": 2.5,
+        "editable": true,
+        "low": 1.0,
+        "high": 5.0
+    },
+    {
+        "name": "AlgoParams.TakerMinRelStrike",
+        "value": 0.0
+    },
+    {
+        "name": "AlgoParams.TakerMaxRelStrike",
+        "value": 2.0
+    },
+    {
+        "name": "AlgoParams.MakerMinRelStrike",
+        "value": 0.0
+    },
+    {
+        "name": "AlgoParams.MakerMaxRelStrike",
+        "value": 2.0
+    },
+    {
+        "name": "AlgoParams.MakerQuoteBeyondRangeToGetOutOfRisk",
+        "value": false,
+        "type": "bool"
+    },
+    {
+        "name": "AlgoParams.MaxTakerLots",
+        "type": "int",
+        "value": 4
+    },
+    {
+        "name": "AlgoParams.MaxMakerLots",
+        "type": "int",
+        "value": 1
+    },
+    {
+        "name": "Engine.CycleFreqCalibrate",
+        "value": 0.005
+    },
+    {
+        "name": "Engine.CycleFreqCharges",
+        "value": 5
+    },
+    {
+        "name": "Engine.CycleFreqAlgo",
+        "value": 0.001
+    },
+    {
+        "name": "Engine.CycleFreqMarkout",
+        "value": 0.005
+    },
+    {
+        "name": "Engine.CycleFreqSlowCycle",
+        "value": 1
+    },
+    {
+        "name": "Model.CxStrikes",
+        "type": "vec_double",
+        "value": [
+            0.5,
+            1.0,
+            2.0,
+            3.0
+        ]
+    },
+    {
+        "name": "Engine.PublishModelParamsOnAlgoThread",
+        "type": "bool",
+        "value": false
+    }
+]
